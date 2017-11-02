@@ -1,0 +1,6 @@
+framework module Pods_sliderdismissanimation_Tests {
+  umbrella header "Pods-sliderdismissanimation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

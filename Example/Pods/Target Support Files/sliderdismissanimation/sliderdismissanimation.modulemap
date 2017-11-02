@@ -1,0 +1,6 @@
+framework module sliderdismissanimation {
+  umbrella header "sliderdismissanimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

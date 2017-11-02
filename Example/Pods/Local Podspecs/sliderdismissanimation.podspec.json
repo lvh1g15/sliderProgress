@@ -1,0 +1,22 @@
+{
+  "name": "sliderdismissanimation",
+  "version": "0.1.0",
+  "summary": "A short description of sliderdismissanimation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lvh1g15/sliderdismissanimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvh1g15": "landon2008@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lvh1g15/sliderdismissanimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sliderdismissanimation/Classes/**/*"
+}

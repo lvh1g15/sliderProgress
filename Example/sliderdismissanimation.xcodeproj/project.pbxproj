@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D12377E4C1A6305DB1FCC21 /* sliderdismissanimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = sliderdismissanimation.podspec; path = ../sliderdismissanimation.podspec; sourceTree = "<group>"; };
+		0D12377E4C1A6305DB1FCC21 /* sliderdismissanimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = sliderdismissanimation.podspec; path = ../sliderdismissanimation.podspec; sourceTree = "<group>"; };
 		3BEE10963E215C097B7C9C17 /* Pods-sliderdismissanimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Example/Pods-sliderdismissanimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F108D32010EBFC9E6E08B00 /* Pods-sliderdismissanimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Example/Pods-sliderdismissanimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		45F77993A26A831CDE52C3EF /* Pods-sliderdismissanimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Tests/Pods-sliderdismissanimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7AC69F46E9EFC3173E93A081 /* Pods_sliderdismissanimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sliderdismissanimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ADE19C877FBD6174789BA31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BE36A97EDAA481CED76A0C85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7ADE19C877FBD6174789BA31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BE36A97EDAA481CED76A0C85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5DC11EBCD9B58C4168A9C8A /* Pods_sliderdismissanimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sliderdismissanimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JT5HQ7RT7B;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JT5HQ7RT7B;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -508,13 +510,14 @@
 			baseConfigurationReference = 3BEE10963E215C097B7C9C17 /* Pods-sliderdismissanimation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JT5HQ7RT7B;
 				INFOPLIST_FILE = sliderdismissanimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -523,13 +526,14 @@
 			baseConfigurationReference = 3F108D32010EBFC9E6E08B00 /* Pods-sliderdismissanimation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JT5HQ7RT7B;
 				INFOPLIST_FILE = sliderdismissanimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -537,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50487E342A29AEB7110042B6 /* Pods-sliderdismissanimation_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JT5HQ7RT7B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,7 +555,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -558,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45F77993A26A831CDE52C3EF /* Pods-sliderdismissanimation_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JT5HQ7RT7B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,7 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

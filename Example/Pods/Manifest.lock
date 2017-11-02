@@ -1,0 +1,16 @@
+PODS:
+  - sliderdismissanimation (0.1.0)
+
+DEPENDENCIES:
+  - sliderdismissanimation (from `../`)
+
+EXTERNAL SOURCES:
+  sliderdismissanimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  sliderdismissanimation: 2e539753e0367e64b59c7600e2d7e33d3f2c6ec6
+
+PODFILE CHECKSUM: 9ec98a7aec6f9c1ea067b3c494071209bbcfc2ee
+
+COCOAPODS: 1.2.1

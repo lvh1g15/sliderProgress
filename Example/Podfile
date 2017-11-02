@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'sliderdismissanimation_Example' do
+  pod 'sliderdismissanimation', :path => '../'
+
+  target 'sliderdismissanimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

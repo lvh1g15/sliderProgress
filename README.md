@@ -1,9 +1,8 @@
 # SliderProgress
 
-[![CI Status](http://img.shields.io/travis/lvh1g15/SliderProgress.svg?style=flat)](https://travis-ci.org/lvh1g15/SliderProgress)
 [![Version](https://img.shields.io/cocoapods/v/SliderProgress.svg?style=flat)](http://cocoapods.org/pods/SliderProgress)
-[![License](https://img.shields.io/cocoapods/l/SliderProgress.svg?style=flat)](http://cocoapods.org/pods/SliderProgress)
-[![Platform](https://img.shields.io/cocoapods/p/SliderProgress.svg?style=flat)](http://cocoapods.org/pods/SliderProgress)
+<img src="https://img.shields.io/badge/platform-iOS-orange.svg?style=flat" alt="Platform iOS" />
+<img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" alt="License MIT" />
 
 <p align="center">
   <img src="https://media.giphy.com/media/3otWpI6WTCtjNNusKI/giphy.gif">

@@ -1,5 +1,7 @@
 PODS:
-  - sliderdismissanimation (0.1.0)
+  - sliderdismissanimation (0.1.0):
+    - SnapKit (~> 3.0)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - sliderdismissanimation (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  sliderdismissanimation: 2e539753e0367e64b59c7600e2d7e33d3f2c6ec6
+  sliderdismissanimation: 288988ac37cb826538549972eeb7d7e585b8e9de
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
 PODFILE CHECKSUM: 9ec98a7aec6f9c1ea067b3c494071209bbcfc2ee
 

@@ -45,7 +45,7 @@ override func viewDidLoad() {
     }
 
 func scrollViewDidScroll(_ scrollView: UIScrollView) {
-    if progressions == nil {
+    if progressBar == nil {
             self.dismiss(animated: true, completion: nil)
         } else {
             progressBar.animateWidth(scrollheight: 150, scrollviewcurrent: scrollView, targetviewcontroller: self)

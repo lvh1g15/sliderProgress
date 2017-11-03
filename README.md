@@ -5,7 +5,8 @@
 <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" alt="License MIT" />
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3otWpI6WTCtjNNusKI/giphy.gif">
+  <img src="https://user-images.githubusercontent.com/17392781/32379318-1dc4f02e-c0a5-11e7-8d49-495b4e7edf8e.gif">
+  <img src="https://user-images.githubusercontent.com/17392781/32379154-a9dffe2e-c0a4-11e7-81ce-af31e73e41f4.gif">
 </p>
 
 ## Requirements

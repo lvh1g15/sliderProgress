@@ -31,6 +31,8 @@ SliderProgress is available under the MIT license. See the LICENSE file for more
 ## Example usage
 ```Swift
 
+import SliderProgress
+
 class ViewController: UIViewController, UIScrollViewDelegate {
 
 weak var progressBar: SwipeProgression!

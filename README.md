@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/sliderdismissanimation.svg?style=flat)](http://cocoapods.org/pods/sliderdismissanimation)
 [![Platform](https://img.shields.io/cocoapods/p/sliderdismissanimation.svg?style=flat)](http://cocoapods.org/pods/sliderdismissanimation)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![Demo](https://media.giphy.com/media/3otWpI6WTCtjNNusKI/giphy.gif)
 
 ## Requirements
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 

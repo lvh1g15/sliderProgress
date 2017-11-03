@@ -22,7 +22,7 @@ pod 'SliderProgress'
 
 ## Author
 
-lvh1g15, landon2008@hotmail.com
+Landon Vago-Hughes, Contact: Landonvagohughes3@gmail.com
 
 ## License
 

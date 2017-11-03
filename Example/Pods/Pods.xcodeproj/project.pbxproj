@@ -23,7 +23,7 @@
 		53443BF34744CFAAB03BD99CFEB7EBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */; };
 		539115AA5890A142E303DF61BBE08A64 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */; };
 		54C9F4C50EFA11ABF9B38C4AB45308C8 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */; };
-		5741985A7541E394C0D03FB691EE574C /* swipeupdismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F99C36B10BBBA690DDA14C21E6C53 /* swipeupdismiss.swift */; };
+		5741985A7541E394C0D03FB691EE574C /* SwipeProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F99C36B10BBBA690DDA14C21E6C53 /* SwipeProgression.swift */; };
 		59CF56EC78D1CA4F4BD069E97919ABD3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */; };
 		60C57091CB661B6E075AF5C8320637DC /* sliderdismissanimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 814FC6E38D0ACD8D3C46A35A89BE8FD9 /* sliderdismissanimation-dummy.m */; };
 		60E3FAC63153F14BCC7B0BDCD405A84C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */; };
@@ -117,7 +117,7 @@
 		6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		6D7ACA78E0D1424D0961072ED51408A1 /* Pods-sliderdismissanimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sliderdismissanimation_Tests-resources.sh"; sourceTree = "<group>"; };
 		6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		775F99C36B10BBBA690DDA14C21E6C53 /* swipeupdismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = swipeupdismiss.swift; sourceTree = "<group>"; };
+		775F99C36B10BBBA690DDA14C21E6C53 /* SwipeProgression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeProgression.swift; sourceTree = "<group>"; };
 		7B7BA67F75C3400960FC055481C165AB /* sliderdismissanimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sliderdismissanimation.xcconfig; sourceTree = "<group>"; };
 		7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		814FC6E38D0ACD8D3C46A35A89BE8FD9 /* sliderdismissanimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sliderdismissanimation-dummy.m"; sourceTree = "<group>"; };
@@ -347,7 +347,7 @@
 		DDF9C437C6D042CFF5CDAF12F28A3640 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				775F99C36B10BBBA690DDA14C21E6C53 /* swipeupdismiss.swift */,
+				775F99C36B10BBBA690DDA14C21E6C53 /* SwipeProgression.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -589,7 +589,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5741985A7541E394C0D03FB691EE574C /* swipeupdismiss.swift in Sources */,
+				5741985A7541E394C0D03FB691EE574C /* SwipeProgression.swift in Sources */,
 				60C57091CB661B6E075AF5C8320637DC /* sliderdismissanimation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

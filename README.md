@@ -29,7 +29,9 @@ Landon Vago-Hughes, Contact: Landonvagohughes3@gmail.com
 
 SliderProgress is available under the MIT license. See the LICENSE file for more info.
 
-## Example usage
+## Swipe down usage
+This usage if for if you wish to swipe down and see how much you need to swipe down until the view will dismiss
+
 ```Swift
 
 import SliderProgress
@@ -55,4 +57,16 @@ func scrollViewDidScroll(_ scrollView: UIScrollView) {
 }
 
 ```
+# Swipe up usage
+The only difference in this use case is we have a function called swipeDownProgress which will let you know how much longer you have left until the end of the scrollView. The function itself just removes the view from the superview. The dismiss function is what I have added to show how it can be applied. 
 
+```Swift
+func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    if progressBar == nil {
+            self.dismiss(animated: true, completion: nil)
+        } else {
+            progressions.swipeDownProgress(scrollviewcurrent: scrollView)
+        }
+    }
+}
+```

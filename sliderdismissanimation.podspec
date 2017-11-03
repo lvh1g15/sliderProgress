@@ -25,7 +25,7 @@ An animation kit for some clean swipe to dismiss features. The method will creat
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lvh1g15' => 'landon2008@hotmail.com' }
-  s.source           = { :git => 'https://github.com/lvh1g15/sliderdismissanimation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lvh1g15/sliderProgress.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -43,7 +43,7 @@ public class SwipeProgression: UIView {
         })
     }
     
-    public func swipeDownProgress(scrollviewcurrent: UIScrollView) {
+    public func swipeUpProgress(scrollviewcurrent: UIScrollView) {
         
         let superviewheight = superview?.layer.frame.height
         

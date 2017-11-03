@@ -65,7 +65,7 @@ func scrollViewDidScroll(_ scrollView: UIScrollView) {
     if progressBar == nil {
             self.dismiss(animated: true, completion: nil)
         } else {
-            progressions.swipeDownProgress(scrollviewcurrent: scrollView)
+            progressions.swipeUpProgress(scrollviewcurrent: scrollView)
         }
     }
 }

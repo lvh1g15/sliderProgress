@@ -4,7 +4,7 @@ import SnapKit
 
 public class SwipeProgression: UIView {
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
     
@@ -13,11 +13,11 @@ public class SwipeProgression: UIView {
         
     }
     
-    convenience init() {
+    convenience public init() {
         self.init(frame: CGRect.zero)
     }
     
-    func setup() {
+    public func setup() {
         self.backgroundColor = UIColor.white
         self.snp.makeConstraints({(makes) -> Void in
             makes.leading.equalToSuperview()
@@ -27,7 +27,7 @@ public class SwipeProgression: UIView {
         })
     }
     
-    func animateWidth(scrollheight: CGFloat, scrollviewcurrent: UIScrollView, targetviewcontroller: UIViewController) {
+    public func animateWidth(scrollheight: CGFloat, scrollviewcurrent: UIScrollView, targetviewcontroller: UIViewController) {
         
         let ratioscrolltoy = (-scrollviewcurrent.contentOffset.y)/(scrollheight)
         

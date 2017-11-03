@@ -29,5 +29,27 @@ lvh1g15, landon2008@hotmail.com
 SliderProgress is available under the MIT license. See the LICENSE file for more info.
 
 ## Example usage
+```Swift
 
+class ViewController: UIViewController, UIScrollViewDelegate {
+
+weak var progressBar: SwipeProgression!
+
+override func viewDidLoad() {
+    let progressions: SwipeProgression = SwipeProgression(frame: CGRect.zero)
+    self.view.addSubview(progressions)
+    progressions.setup()
+    self.progressions = progressions
+    }
+
+func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    if progressions == nil {
+            self.dismiss(animated: true, completion: nil)
+        } else {
+            progressions.animateWidth(scrollheight: 150, scrollviewcurrent: scrollView, targetviewcontroller: self)
+        }
+    }
+}
+
+```
 

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D12377E4C1A6305DB1FCC21 /* sliderdismissanimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = sliderdismissanimation.podspec; path = ../sliderdismissanimation.podspec; sourceTree = "<group>"; };
+		0D12377E4C1A6305DB1FCC21 /* SliderProgress.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SliderProgress.podspec; path = ../SliderProgress.podspec; sourceTree = "<group>"; };
 		3BEE10963E215C097B7C9C17 /* Pods-sliderdismissanimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Example/Pods-sliderdismissanimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F108D32010EBFC9E6E08B00 /* Pods-sliderdismissanimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Example/Pods-sliderdismissanimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		45F77993A26A831CDE52C3EF /* Pods-sliderdismissanimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliderdismissanimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sliderdismissanimation_Tests/Pods-sliderdismissanimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0D12377E4C1A6305DB1FCC21 /* sliderdismissanimation.podspec */,
+				0D12377E4C1A6305DB1FCC21 /* SliderProgress.podspec */,
 				7ADE19C877FBD6174789BA31 /* README.md */,
 				BE36A97EDAA481CED76A0C85 /* LICENSE */,
 			);

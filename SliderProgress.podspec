@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'sliderdismissanimation'
-  s.version          = '0.1.0'
+  s.name             = 'SliderProgress'
+  s.version          = '0.1.1'
   s.summary          = 'Swipe to dismiss progress animation'
 
 # This description is used to generate tags and improve search results.

@@ -5,7 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/SliderProgress.svg?style=flat)](http://cocoapods.org/pods/sliderdismissanimation)
 [![Platform](https://img.shields.io/cocoapods/p/SliderProgress.svg?style=flat)](http://cocoapods.org/pods/sliderdismissanimation)
 
-![Demo](https://media.giphy.com/media/3otWpI6WTCtjNNusKI/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/3otWpI6WTCtjNNusKI/giphy.gif">
+</p>
 
 ## Requirements
 

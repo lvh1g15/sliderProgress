@@ -1,4 +1,4 @@
-# sliderdismissanimation
+# SliderProgress
 
 [![CI Status](http://img.shields.io/travis/lvh1g15/sliderdismissanimation.svg?style=flat)](https://travis-ci.org/lvh1g15/sliderdismissanimation)
 [![Version](https://img.shields.io/cocoapods/v/sliderdismissanimation.svg?style=flat)](http://cocoapods.org/pods/sliderdismissanimation)
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-sliderdismissanimation is available through [CocoaPods](http://cocoapods.org). To install
+SliderProgress is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -26,4 +26,8 @@ lvh1g15, landon2008@hotmail.com
 
 ## License
 
-sliderdismissanimation is available under the MIT license. See the LICENSE file for more info.
+SliderProgress is available under the MIT license. See the LICENSE file for more info.
+
+## Example usage
+
+

@@ -39,14 +39,14 @@ override func viewDidLoad() {
     let progressions: SwipeProgression = SwipeProgression(frame: CGRect.zero)
     self.view.addSubview(progressions)
     progressions.setup()
-    self.progressions = progressions
+    self.progressBar = progressions
     }
 
 func scrollViewDidScroll(_ scrollView: UIScrollView) {
     if progressions == nil {
             self.dismiss(animated: true, completion: nil)
         } else {
-            progressions.animateWidth(scrollheight: 150, scrollviewcurrent: scrollView, targetviewcontroller: self)
+            progressBar.animateWidth(scrollheight: 150, scrollviewcurrent: scrollView, targetviewcontroller: self)
         }
     }
 }
